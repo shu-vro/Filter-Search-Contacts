@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    box-sizing: border-box;
+}
+
+.container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+h1.center {
+    text-align: center;
+    font-size: 3em;
+}
+
+.input {
+    display: flex;
+    justify-content: center;
+}
+
+input {
+    position: relative;
+    text-align: center;
+    font-size: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    outline: none;
+    border: 3px solid #000000;
+    margin: 40px 0;
+    padding: 4px;
+    border-radius: 8px;
+    background: linear-gradient(0deg, #6e6e6e, #111111);
+    color: white;
+}
+
+.list {
+    width: 80%;
+    list-style-type: none;
+}
+
+.item_head {
+    width: 100%;
+    padding: 10px 20px;
+    background: #dddddd;
+    font-weight: 800;
+    font-size: 2em;
+    border-radius: 10px;
+    margin-bottom: 1em;
+}
+
+.item {
+    position: relative;
+    width: 100%;
+    background: #aaaaaa;
+    margin: 5px;
+    border-radius: 8px;
+}
+
+.item a {
+    text-decoration: none;
+    line-height: 50px;
+    margin: 0 50px;
+    font-weight: 500;
+    color: #196DF9;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.item:hover {
+    background: #bbbbbb;
+}
+
+i.fa {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    font-size: 25px;
+    color: crimson;
+}
